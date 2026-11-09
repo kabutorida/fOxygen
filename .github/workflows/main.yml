@@ -1,0 +1,5 @@
+gh workflow run build.yml -f build_type=Release
+gh run watch
+gh run list --limit 3
+gh run download <run-id> -n fOxygen-apk
+gh run download <run-id> -n fOxygen-build-log
